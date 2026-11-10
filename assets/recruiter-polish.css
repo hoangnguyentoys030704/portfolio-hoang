@@ -1,0 +1,69 @@
+/* One UI system: two local fonts, black surfaces, orange highlights. */
+@font-face{font-family:'Noto Sans';src:url('fonts/NotoSans-Regular.ttf') format('truetype');font-style:normal;font-weight:400;font-display:swap}
+@font-face{font-family:'Noto Sans';src:url('fonts/NotoSans-Bold.ttf') format('truetype');font-style:normal;font-weight:500 900;font-display:swap}
+@font-face{font-family:'Noto Serif';src:url('fonts/NotoSerif-Italic.ttf') format('truetype');font-style:italic;font-weight:400;font-display:swap}
+:root{--sans:'Noto Sans',Arial,sans-serif;--serif:'Noto Serif',Georgia,serif;--accent:#ff682b}
+body,button,input,textarea,select{font-family:var(--sans)}
+body{font-synthesis:none}
+.section-title,.contact-title,.case-title{font-family:var(--sans);font-weight:700;line-height:1.1;letter-spacing:-.045em}
+.section-title em,.contact-title em{font-family:var(--serif)!important;font-style:italic!important;font-weight:400!important;color:var(--accent)!important;-webkit-text-stroke:0!important;text-shadow:none!important;letter-spacing:-.045em!important}
+.hero-title{line-height:.94!important;letter-spacing:-.065em!important}
+.case-copy h3,.coach-client-header h2{line-height:1.13;letter-spacing:-.035em}
+.case-copy p,.coach-lead{line-height:1.8}
+.section-title .fx-word,.section-title .fx-char{padding-bottom:.08em;margin-bottom:-.08em}
+#work{background:radial-gradient(ellipse at 92% 0%,#85341524,transparent 50%),#090909;overflow:hidden}
+#work>.shell>.section-head{display:block!important;border:0!important;padding:0!important;margin-bottom:28px!important;position:relative}
+#work>.shell>.section-head>.fx-section-line{display:none!important}
+#work>.shell>.section-head .section-no{display:inline-flex;align-items:center;gap:10px;border:1px solid #6c3b27;border-radius:30px;background:#22150f;font-size:10px;padding:10px 15px;color:#ffb38e;margin-bottom:24px;letter-spacing:.12em}
+#work>.shell>.section-head .section-no:before{content:'';width:6px;height:6px;border-radius:50%;background:#ff7c42;box-shadow:0 0 13px #ff682b60}
+#work>.shell>.section-head .section-title{font-size:clamp(62px,7.8vw,112px);line-height:1.1;letter-spacing:-.05em;color:#f5f0eb;text-shadow:none}
+#work>.shell>.project-intro{border:0;padding:0 0 5px;margin-bottom:30px}
+#work>.shell>.project-intro .eyebrow:before{display:none}
+#work>.shell>.project-intro .eyebrow{color:#b99c8b;letter-spacing:.12em;font-size:9px}
+#work>.shell>.project-intro p{font-size:15px!important;line-height:1.7!important;max-width:680px}
+#caseModal.case-theme-miyako #caseMetricsBlock{background:radial-gradient(ellipse at 100% 0%,#73301535,transparent 65%),#11100f!important;border:1px solid #70402a!important;color:#f7f2ee;box-shadow:0 20px 55px #0004}
+#caseModal.case-theme-miyako #caseMetricsBlock h3{color:#faf5f0!important}
+#caseModal.case-theme-miyako #caseMetricsBlock .case-label{color:#ffad82!important}
+#caseModal.case-theme-miyako #caseMetrics .metric{background:#1d1713!important;border:1px solid #67422f!important;border-top:3px solid #ff783d!important;min-height:210px!important;padding:24px!important}
+#caseModal.case-theme-miyako #caseMetrics .metric b{color:#fff8f2!important;font-size:clamp(35px,4vw,58px)!important;letter-spacing:-.055em}
+#caseModal.case-theme-miyako #caseMetrics .metric span{color:#c9b6a9!important}
+.meta-growth{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;font-size:22px;line-height:1.4;color:#ffad79;margin-top:20px;font-weight:700;letter-spacing:-.02em}
+.meta-growth em{font-family:var(--sans);font-size:10px;line-height:1.5;font-style:normal;font-weight:400;color:#b29b8c;letter-spacing:0}
+#caseModal.case-theme-miyako #caseMetricNote{background:none!important;color:#bfae9f!important;border-color:#60412f!important;line-height:1.8}
+.meta-analysis{padding:22px 0 0;border-top:1px solid #543627;margin-top:24px}
+.meta-analysis[hidden]{display:none!important}
+.meta-analysis h4{font-size:18px;color:#fff4ea;margin:0 0 12px}
+.meta-analysis p{font-size:13px;line-height:1.85;color:#c5b9ae;max-width:920px;margin:0 0 20px}
+.meta-analysis button{display:block;width:100%;padding:0;background:#fff;border:1px solid #785039;cursor:zoom-in;border-radius:4px;overflow:hidden}
+.meta-analysis img{display:block;width:100%;height:auto;object-fit:contain}
+.meta-analysis small{display:block;font-size:10px;line-height:1.6;color:#b49b8b;margin-top:10px}
+#caseModal.case-theme-miyako .channel-growth-grid{align-items:start}
+#caseModal.case-theme-miyako .channel-growth-card{height:auto;align-self:start}
+#caseModal.case-theme-miyako .youtube-overview-proof img{width:100%;height:auto;object-fit:contain}
+#additional-experience .project.coach{min-height:320px!important;height:auto!important;background:#110b0b;border-color:#64312a}
+#additional-experience .project.coach .project-content{left:32px!important;right:32px!important;bottom:30px!important;max-width:68%!important;translate:none!important}
+#additional-experience .project.coach .project-title{font-family:var(--sans);font-size:clamp(28px,3.5vw,46px)!important;line-height:1.2!important;letter-spacing:-.035em!important;margin:0 0 24px!important;max-width:780px;text-transform:none}
+#additional-experience .project.coach .project-top{left:32px;right:32px;top:25px;color:#d4a395;font-size:9px;line-height:1.7;letter-spacing:.08em}
+#additional-experience .project.coach .coach-backdrop{width:54%;opacity:.65;filter:blur(1px) brightness(.7);object-position:50% 37%}
+#additional-experience .project.coach>.project-shade{background:linear-gradient(90deg,#110b0b 15%,#110b0bd9 48%,#110b0b35 100%)}
+#additional-experience .project.coach .project-actions>button{background:#ff682b;border:1px solid #ff996b;color:#100b08;font-weight:700;min-height:48px;padding:13px 22px;font-size:11px}
+#coachPreviewAddress{font-family:var(--sans)!important}
+@media(max-width:900px){#additional-experience .project.coach .project-content{max-width:78%!important}.hero-title{font-size:clamp(68px,12.7vw,122px)!important}}
+@media(max-width:620px){
+ #work>.shell>.section-head .section-title{font-size:clamp(40px,10.4vw,62px)!important;line-height:1.2!important;letter-spacing:-.05em}
+ #work>.shell>.section-head .section-no{font-size:8px;margin-bottom:18px}
+ #work>.shell>.project-intro p{font-size:14px!important}
+ .hero-title{font-size:22vw!important;line-height:.98!important}
+ #about .section-title,#additional-experience .section-title{font-size:36px!important;line-height:1.18!important}
+ .section-title{line-height:1.15}
+ #caseModal.case-theme-miyako #caseMetrics .metric{min-height:165px!important;padding:20px!important}
+ #additional-experience .project.coach{min-height:340px!important}
+ #additional-experience .project.coach .project-content{left:22px!important;right:22px!important;bottom:24px!important;max-width:100%!important}
+ #additional-experience .project.coach .project-title{font-size:29px!important;line-height:1.2!important}
+ #additional-experience .project.coach .project-top{left:22px;right:22px;top:22px;font-size:8px;max-width:90%;gap:14px}
+ #additional-experience .project.coach .project-top>span:first-child{max-width:230px}
+ #additional-experience .project.coach .coach-backdrop{width:100%;opacity:.4}
+ #additional-experience .project.coach>.project-shade{background:linear-gradient(0deg,#110b0b 4%,#110b0bbb 65%,#110b0b70)}
+}
+.portfolio-ambient{opacity:.24}
+@media(max-width:760px){.portfolio-ambient{opacity:.16}}

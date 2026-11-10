@@ -1,0 +1,69 @@
+.portfolio-ambient{position:fixed;inset:0;width:100%;height:100%;z-index:3;pointer-events:none!important;opacity:.46;mix-blend-mode:screen;contain:strict}
+body:not(.entered) .portfolio-ambient{visibility:hidden}
+#caseModal.case-theme-miyako .partnership-gallery{grid-template-columns:repeat(3,minmax(0,1fr))!important;align-items:stretch!important}
+#caseModal.case-theme-miyako .partnership-photo{position:relative!important;aspect-ratio:4/5!important;width:100%!important;height:auto!important;max-width:none!important;grid-column:auto!important;background:#fff!important;align-self:stretch!important;overflow:hidden!important}
+#caseModal.case-theme-miyako .partnership-photo img{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:contain!important;transform:none!important;background:#fff}
+#caseModal.case-theme-miyako .partnership-photo:last-child img{object-fit:cover!important;object-position:50% 43%!important;transform:scale(1.25)!important;transform-origin:50% 43%!important}
+.youtube-overview-proof{margin:24px 0 0;border-top:1px solid #604027;padding-top:20px}
+.youtube-overview-proof button{display:block;width:100%;padding:0;border:1px solid #6b4128;background:white;cursor:zoom-in;overflow:hidden;border-radius:3px}
+.youtube-overview-proof img{display:block;width:100%;height:auto;object-fit:contain}
+.youtube-overview-proof figcaption{font-size:10px;line-height:1.75;color:#b5a293;margin-top:12px}
+
+/* A complete two-card window on desktop, a complete single card on mobile. */
+.secondary-rail{margin-top:28px;position:relative;min-width:0;isolation:isolate}
+.secondary-rail-controls{display:flex;justify-content:space-between;align-items:center;gap:18px;margin:0 0 12px}
+.secondary-rail-dots{display:flex;gap:9px;align-items:center}
+.secondary-rail-dots button{width:28px;height:4px;border:0;padding:0;background:#65402c;position:relative;cursor:pointer;transition:width .3s,background .3s}
+.secondary-rail-dots button:before{content:'';position:absolute;inset:-15px 0}
+.secondary-rail-dots button[aria-current=true]{background:#ff884b;width:48px}
+.secondary-rail-arrows{display:flex;gap:10px}
+.secondary-rail-arrows button{min-width:124px;height:52px;padding:0 18px;border:1px solid #895234;border-radius:4px;background:#24170f;color:#ffdfca;display:flex;align-items:center;justify-content:space-between;gap:20px;transition:background .3s,box-shadow .3s}
+.secondary-rail-arrows button span{font-size:10px;font-weight:700;letter-spacing:.05em;white-space:nowrap}
+.secondary-rail-arrows button b{font-size:25px;font-weight:400;line-height:1}
+.secondary-rail-arrows [data-rail-next]{min-width:172px;background:#ff7839;color:#160c06;border-color:#ffa16e;box-shadow:0 8px 28px #ea4a1325}
+.secondary-rail-arrows [data-rail-next]:hover{background:#ffae7d;box-shadow:0 10px 32px #ea4a1340}
+.secondary-rail-scroll{overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain;padding:20px 8px 32px;margin:0 -8px;scroll-padding-left:8px;outline-offset:-2px}
+.secondary-rail-scroll::-webkit-scrollbar{display:none}
+.secondary-rail-track{position:relative;display:flex;gap:24px;align-items:stretch;width:max-content;min-width:100%;padding:0!important}
+#work .secondary-rail .project{position:relative!important;display:block!important;flex:0 0 var(--rail-card-width,580px)!important;width:var(--rail-card-width,580px)!important;min-width:0;min-height:0!important;height:520px!important;max-height:none!important;padding:0!important;overflow:hidden;scroll-snap-align:start;transform:none!important;translate:none!important;scale:1!important;opacity:1!important;border:1px solid #77523c!important;box-shadow:0 14px 30px #0005;transition:border-color .4s,box-shadow .4s!important;background:#16120f!important;perspective:1200px}
+#work .secondary-rail .project.is-rail-active{border-color:#d78d5c!important;box-shadow:0 14px 34px #0006}
+#work .secondary-rail .project>.thumb{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;transform:scale(1.06)!important;translate:none!important;opacity:.32!important;filter:blur(2px) brightness(.7)!important;transition:transform .8s!important}
+#work .secondary-rail .project>.project-shade{position:absolute!important;inset:0!important;display:block!important;background:linear-gradient(0deg,#100c09 5%,#100c09eb 29%,#100c0940 80%);z-index:2}
+#work .secondary-rail .project>.project-focus{display:block!important;position:absolute!important;left:10%!important;right:auto!important;top:12%!important;bottom:auto!important;width:80%!important;height:44%!important;max-width:none!important;max-height:none!important;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;translate:none!important;rotate:0deg!important;overflow:visible!important;z-index:3;transform:rotateY(-3deg) scale(.98)!important;transform-origin:center;transition:transform .75s cubic-bezier(.22,.61,.36,1)!important}
+#work .secondary-rail .project.is-rail-active>.project-focus{transform:rotateY(0deg) translateZ(12px) scale(1)!important}
+#work .secondary-rail .project>.project-focus img{display:block!important;position:relative!important;width:100%!important;height:100%!important;object-fit:contain!important;object-position:center!important;transform:none!important;translate:none!important;max-width:100%!important;max-height:100%!important}
+#work .secondary-rail .project>.project-top{position:absolute!important;top:20px!important;left:22px!important;right:22px!important;bottom:auto!important;display:flex!important;padding:0!important;background:none!important;font-size:8px!important;line-height:1.6;z-index:5;color:#d0c4b8}
+#work .secondary-rail .project>.project-content{position:absolute!important;left:22px!important;right:22px!important;bottom:24px!important;top:auto!important;max-width:none!important;padding:0!important;translate:none!important;z-index:6}
+#work .secondary-rail .project .project-brand{height:76px!important;max-width:100%!important;width:100%!important;margin:0 0 13px!important;position:relative;overflow:visible}
+#work .secondary-rail .project .project-brand img{position:relative!important;inset:auto!important;width:auto!important;height:auto!important;max-width:85%!important;max-height:76px!important;object-fit:contain!important;transform:none!important;translate:none!important}
+#work .secondary-rail .project.boss #brandLogoBoss{position:absolute!important;top:50%!important;left:0!important;width:100%!important;height:auto!important;max-width:390px!important;max-height:none!important;transform:translateY(-50%)!important}
+#work .secondary-rail .project.optibac #brandLogoOptibac{position:absolute!important;top:50%!important;left:0!important;width:100%!important;max-width:320px!important;height:auto!important;max-height:none!important;transform:translateY(-50%)!important}
+#work .secondary-rail .project .project-title{font-size:clamp(28px,3.2vw,43px)!important;line-height:1.1!important;letter-spacing:-.04em;margin-bottom:16px}
+#work .secondary-rail .project .project-meta{display:flex;gap:10px;font-size:9px;margin-bottom:14px;color:#d1c0b3;line-height:1.6}
+#work .secondary-rail .project .project-meta>span:last-child{display:none}
+#work .secondary-rail .project .project-actions{display:flex!important;gap:7px;flex-wrap:wrap}
+#work .secondary-rail .project .project-actions>button{flex:0 0 auto!important;max-width:none!important;min-height:42px!important;padding:11px 16px!important;font-size:10px!important;letter-spacing:.02em}
+#work .secondary-rail .project .project-actions>a{padding:9px 10px!important;font-size:8px!important;min-height:34px;line-height:1.4}
+#work .secondary-rail .project .fx-card-light{display:none!important}
+#work .secondary-rail .project.optibac .big{display:none}
+.secondary-rail button:focus-visible,.secondary-rail-scroll:focus-visible{outline:2px solid #ffab75;outline-offset:4px}
+@media(hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ #work .secondary-rail .project:hover>.project-focus{transform:rotateY(var(--fx-rotate-y,0deg)) rotateX(var(--fx-rotate-x,0deg)) translateZ(16px) scale(1.015)!important}
+ #work .secondary-rail .project:hover>.thumb{transform:scale(1.09)!important}
+}
+@media(max-width:760px){
+ .secondary-rail-track{gap:16px}
+ #work .secondary-rail .project{height:505px!important}
+ #work .secondary-rail .project>.project-top{left:18px!important;right:18px!important;font-size:8px!important;gap:10px}
+ #work .secondary-rail .project>.project-top>span:first-child{max-width:52%}
+ #work .secondary-rail .project>.project-content{left:18px!important;right:18px!important;bottom:20px!important}
+ #work .secondary-rail .project>.project-focus{top:13%!important;left:8%!important;width:84%!important;height:40%!important}
+ #work .secondary-rail .project .project-brand{height:66px!important}
+ #work .secondary-rail .project .project-brand img{max-height:66px!important}
+ .secondary-rail-controls{flex-wrap:wrap;gap:14px}
+ .secondary-rail-arrows{width:100%;gap:10px}
+ .secondary-rail-arrows button{min-width:0;flex:1;height:50px;padding:0 15px}
+ .secondary-rail-arrows [data-rail-next]{min-width:0;flex:1.35}
+ .secondary-rail-arrows button span{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.secondary-rail .project,.secondary-rail .project>.project-focus,.secondary-rail-dots button{transition:none!important;transform:none!important}.portfolio-ambient{display:none}}

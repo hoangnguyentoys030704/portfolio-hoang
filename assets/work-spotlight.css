@@ -1,0 +1,139 @@
+#work{position:relative;background:radial-gradient(ellipse at 9% 12%,#7e240b30,transparent 45%),#090909;overflow:hidden;padding-top:110px;padding-bottom:100px}
+#work>.shell>.section-head{align-items:end;padding-bottom:32px;border-bottom:1px solid #7f361c;margin-bottom:26px}
+#work>.shell>.section-head .section-title{font-size:clamp(70px,9vw,136px);line-height:.88;text-shadow:0 12px 55px #ea4a1330}
+#work>.shell>.section-head .section-no{color:#ff9b6d;font-weight:700}
+#work .project-intro{margin-bottom:36px}
+#work>.shell>.project-grid{gap:24px}
+#work>.shell>.project-grid>.project{border:1px solid #67402c;box-shadow:0 24px 70px #0006;min-height:530px}
+#work>.shell>.project-grid>.project.miyako{grid-column:span 12;min-height:740px;background:#170c08;border:1px solid #ff723a;box-shadow:0 0 0 5px #ea4a130b,0 35px 95px #0008;isolation:isolate}
+#work .project.miyako>.bg{background:radial-gradient(ellipse at 5% 0%,#ae3c17a8,transparent 68%),linear-gradient(110deg,#20110c,#090909)}
+#work .project.miyako>.thumb{left:auto!important;right:0!important;top:0!important;width:53%!important;height:100%!important;max-width:none!important;object-fit:cover!important;opacity:.65!important;filter:saturate(.85)}
+#work .project.miyako>.project-shade{background:linear-gradient(90deg,#120c09 5%,#120c09f5 32%,#120c09a3 57%,#120c091a 100%),linear-gradient(0deg,#120c09bb,transparent 70%)}
+#work .project.miyako>.project-focus{left:auto!important;right:5%!important;top:20%!important;bottom:auto!important;width:32%!important;height:54%!important;rotate:4deg;opacity:.95;box-shadow:0 25px 60px #0008;border:1px solid #ffb17b40;transition:rotate .8s,translate .8s}
+#work .project.miyako:hover>.project-focus{rotate:0deg;translate:0 -8px}
+#work .project.miyako>.project-top{left:44px;right:44px;top:34px;color:#ffb48a;font-size:11px;font-weight:700;letter-spacing:.14em}
+#work .project.miyako>.project-content{left:44px!important;right:44px!important;bottom:42px!important;max-width:64%;z-index:7}
+#work .project.miyako .project-brand{margin-bottom:18px!important;width:100%!important;max-width:570px!important;height:auto!important}
+#work .project.miyako .project-brand img{width:100%!important;max-width:570px!important;height:auto!important;max-height:160px!important;object-fit:contain!important;object-position:left center!important;transform:none!important}
+#work .project.miyako .project-meta{font-size:12px;line-height:1.6;color:#d6c1b4;gap:12px;margin:16px 0}
+.work-miyako-numbers{display:flex;gap:38px;border-top:1px solid #ba5b343f;padding-top:22px;margin:24px 0}
+.work-miyako-numbers>div{display:flex;align-items:center;gap:14px}
+.work-miyako-numbers b{font-size:54px;line-height:1;letter-spacing:-.06em;color:#fff}
+.work-miyako-numbers span{font-size:10px;line-height:1.6;max-width:100px;color:#d3b7a7}
+#work .miyako-actions{display:flex;flex-wrap:wrap;gap:10px;max-width:650px}
+#work .miyako-actions>button{display:flex;justify-content:space-between;align-items:center;flex:1 0 100%;max-width:420px;min-height:70px;padding:20px 26px!important;background:#ff6326!important;color:#100a07!important;border:1px solid #ff9866!important;font-size:18px!important;font-weight:800!important;border-radius:3px!important;letter-spacing:-.015em;box-shadow:0 12px 42px #ea4a133a;transition:background .35s,box-shadow .35s}
+#work .miyako-actions>button:hover{background:#ffb18a!important;box-shadow:0 16px 55px #ea4a1360}
+#work .miyako-actions .miyako-proof-btn{min-width:0!important;width:auto!important;flex:1 1 260px;max-width:420px;padding:12px 16px!important;background:#ffffff0a!important;border-color:#b2674166!important}
+#work .miyako-actions .miyako-proof-btn small{font-size:8px!important}
+#work .miyako-actions .miyako-proof-btn span{font-size:10px!important}
+#work .miyako-actions>a:last-child{font-size:9px!important;border-color:#b2674166!important}
+#work>.shell>.project-grid>.boss{grid-column:span 12;min-height:530px}
+#work .project:not(.miyako) .project-actions>button{background:#f5eee6!important;color:#17100c!important;border-color:#f5eee6!important;font-weight:800;min-height:52px;padding:15px 23px;font-size:12px}
+#work .project:not(.miyako) .project-brand{max-width:70%}
+#work .project:not(.miyako) .project-content{bottom:30px;left:30px;right:30px}
+#work .project:hover{border-color:#ff9e70!important}
+.work-featured-sweep{position:absolute;inset:0;z-index:2;pointer-events:none;opacity:.4;background:linear-gradient(115deg,transparent 35%,#ff934a17 47%,transparent 59%);background-size:240% 100%;animation:workGlowSweep 8s ease-in-out infinite}
+@keyframes workGlowSweep{0%,100%{background-position:140% 0}50%{background-position:-40% 0}}
+
+#caseModal.case-theme-miyako{background:#0b0b0b;--case-accent:#ff672c}
+.miyako-case-nav{display:none;position:sticky;top:0;z-index:19;gap:8px;padding:16px 150px 16px 3%;background:#0e0b09ee;backdrop-filter:blur(16px);border-bottom:1px solid #6f341f}
+.case-theme-miyako .miyako-case-nav{display:flex}
+.miyako-case-nav button{border:1px solid #533020;background:#20130e;color:#e8caba;border-radius:2px;padding:10px 17px;font-size:10px;cursor:pointer;transition:background .3s,color .3s}
+.miyako-case-nav button:hover,.miyako-case-nav button:focus-visible{background:#ff672c;color:#0c0806}
+#caseModal.case-theme-miyako>.case-hero{padding:70px 3% 60px!important;min-height:680px;background:radial-gradient(ellipse at 90% 15%,#9c361939,transparent 55%),linear-gradient(145deg,#20130d,#090909 70%)}
+#caseModal.case-theme-miyako .case-hero>.case-wrap{display:grid;grid-template-columns:1.1fr 1fr;column-gap:6%;align-items:start;max-width:1440px;margin:auto}
+#caseModal.case-theme-miyako #caseKicker{grid-column:1/-1;color:#ff9c6f;margin-bottom:30px;font-size:10px}
+#caseModal.case-theme-miyako #caseTitle{grid-column:1;grid-row:2;width:100%!important;max-width:650px!important;height:auto!important;translate:none!important;margin:0 0 25px!important}
+#caseModal.case-theme-miyako #caseTitle img{width:100%!important;height:auto!important;max-height:180px!important;object-fit:contain!important;object-position:left!important}
+#caseModal.case-theme-miyako #caseSub{grid-column:1;grid-row:3;max-width:650px!important;width:100%!important;height:auto!important;translate:none!important;font-size:18px!important;line-height:1.75!important;color:#c9beb6!important;margin:0 0 26px!important}
+#caseModal.case-theme-miyako #caseLinks{grid-column:1;grid-row:4;gap:9px}
+#caseModal.case-theme-miyako #caseLinks>a:first-child{background:#ff672c;color:#100a07;border-color:#ff672c;min-height:54px;font-size:11px;font-weight:800;border-radius:3px;padding:17px 21px;box-shadow:0 10px 36px #ea4a1330}
+.miyako-executive-summary{grid-column:2;grid-row:2/5;min-width:0;border:1px solid #80401f;background:linear-gradient(145deg,#3d1c10,#140d09);padding:25px;box-shadow:0 24px 65px #0005}
+.miyako-executive-summary h2{font-size:clamp(25px,3vw,43px);line-height:1.05;letter-spacing:-.045em;color:#fff;margin:0 0 23px}
+.miyako-executive-summary .summary-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;border-top:1px solid #a74e2e60;padding-top:20px}
+.summary-stats b{font-size:clamp(25px,3vw,43px);letter-spacing:-.06em;line-height:1;color:#ff9c64;display:block}
+.summary-stats span{font-size:9px;line-height:1.6;color:#c6a28c;display:block;margin-top:9px}
+.summary-visuals{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:25px;max-height:230px;overflow:hidden}
+.summary-visuals img{width:100%;height:230px;object-fit:cover;object-position:50% 38%;border:1px solid #9f604249;transition:transform .7s}
+.summary-visuals:hover img:first-child{transform:scale(1.05) rotate(-2deg)}
+.summary-visuals:hover img:last-child{transform:scale(1.05) rotate(2deg)}
+#caseModal.case-theme-miyako #caseFeaturePanel{display:none}
+#caseModal.case-theme-miyako .case-body{max-width:1440px;padding:0 3% 75px;margin:auto}
+#caseModal.case-theme-miyako .case-body>.case-block{grid-template-columns:130px minmax(0,1fr);gap:28px;padding:48px 0;border-color:#55301f}
+#caseModal.case-theme-miyako .case-label{font-size:9px;color:#fda879;letter-spacing:.12em;line-height:1.8}
+#caseModal.case-theme-miyako .case-copy h3{font-size:clamp(30px,3.8vw,52px);line-height:1.08;letter-spacing:-.045em;max-width:100%;margin-bottom:20px}
+#caseModal.case-theme-miyako .case-copy>p{font-size:15px;line-height:1.8;max-width:950px}
+#caseModal.case-theme-miyako #caseStoryGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+#caseModal.case-theme-miyako .case-story-card{padding:27px;border:1px solid #5f3724;background:linear-gradient(135deg,#21140f,#100d0b);min-height:175px}
+#caseModal.case-theme-miyako .case-story-card small{color:#ff8d52;font-size:10px;letter-spacing:.12em}
+#caseModal.case-theme-miyako .case-story-card b{font-size:24px;line-height:1.25;color:#fff;margin:20px 0 12px}
+#caseModal.case-theme-miyako .case-story-card p{font-size:13px;line-height:1.8;color:#afaaa5}
+#caseModal.case-theme-miyako #caseMetricsBlock,#caseModal.case-theme-miyako #casePartnershipBlock{background:#f1e8dd;color:#21160f;padding:35px 28px;margin:20px 0;border:1px solid #d4b89f}
+#caseModal.case-theme-miyako #caseMetricsBlock h3,#caseModal.case-theme-miyako #casePartnershipBlock h3{color:#24150d}
+#caseModal.case-theme-miyako #caseMetricsBlock .case-label,#caseModal.case-theme-miyako #casePartnershipBlock .case-label{color:#a3441c}
+#caseModal.case-theme-miyako #caseMetrics .metric{background:transparent;border-color:#c9ab94;border-top:3px solid #e85c22;padding:22px 16px;min-width:0}
+#caseModal.case-theme-miyako #caseMetrics .metric b{color:#24150d;font-size:clamp(38px,4.5vw,64px);letter-spacing:-.06em}
+#caseModal.case-theme-miyako #caseMetrics .metric span{color:#78543c;font-size:11px;line-height:1.7}
+#caseModal.case-theme-miyako #caseMetricNote{color:#866f5e;font-size:12px;line-height:1.8}
+#caseModal.case-theme-miyako #casePartnershipBlock .case-copy>p{color:#6c5546}
+#caseModal.case-theme-miyako .sponsor-steps h4,#caseModal.case-theme-miyako .sponsor-results h4,#caseModal.case-theme-miyako .sponsor-results b{color:#352013}
+#caseModal.case-theme-miyako #casePartnershipBlock .sponsor-steps p,#caseModal.case-theme-miyako #casePartnershipBlock .sponsor-results p{color:#80634e!important}
+#caseModal.case-theme-miyako .sponsor-results,#caseModal.case-theme-miyako .sponsor-steps article{border-color:#cbb39f}
+#caseModal.case-theme-miyako .channel-growth-card{padding:30px;border-top:3px solid #ff672c;background:radial-gradient(ellipse at 100% 0,#8c371323,transparent 70%),#17100c}
+#caseModal.case-theme-miyako .channel-growth-metrics b{font-size:clamp(27px,3.2vw,44px);color:#ffad7b}
+#caseModal.case-theme-miyako .miyako-sf-card{border-color:#8d4628;box-shadow:0 15px 40px #0007;transition:translate .5s,rotate .5s,border-color .5s}
+#caseModal.case-theme-miyako .miyako-sf-card:hover{translate:0 -10px;rotate:-1deg;border-color:#ffb17d}
+#caseModal.case-theme-miyako .case-evidence-card.primary{grid-column:1/-1;background:#ed6028;border-color:#ff9c6c;color:#130b06;min-height:140px}
+#caseModal.case-theme-miyako .case-evidence-card.primary *{color:#211209}
+#caseModal.case-theme-miyako .case-evidence-card.primary strong{font-size:28px}
+@media(max-width:900px){
+ #work>.shell>.project-grid>.project.miyako{min-height:720px}
+ #work .project.miyako>.project-content{max-width:80%;left:28px!important;right:28px!important}
+ #work .project.miyako>.project-focus{right:3%!important;width:40%!important;opacity:.65}
+ #caseModal.case-theme-miyako .case-hero>.case-wrap{grid-template-columns:1fr}
+ .miyako-executive-summary{grid-column:1;grid-row:5;margin-top:30px}
+ #caseModal.case-theme-miyako .case-body>.case-block{grid-template-columns:1fr;gap:14px}
+ .miyako-case-nav{overflow-x:auto;white-space:nowrap;padding-right:110px;gap:5px}
+ .miyako-case-nav button{padding:9px 12px;font-size:9px}
+}
+@media(max-width:620px){
+ #work{padding-top:65px;padding-bottom:60px}
+ #work>.shell>.section-head .section-title{font-size:clamp(47px,12vw,68px);line-height:.94}
+ #work>.shell>.project-grid>.project.miyako{min-height:770px}
+ #work .project.miyako>.project-top{top:25px;left:22px;right:22px;font-size:8px}
+ #work .project.miyako>.thumb{width:100%!important;height:55%!important;opacity:.48!important}
+ #work .project.miyako>.project-focus{top:12%!important;right:6%!important;width:50%!important;height:28%!important;opacity:.85}
+ #work .project.miyako>.project-content{left:22px!important;right:22px!important;bottom:25px!important;max-width:none}
+ #work .project.miyako>.project-shade{background:linear-gradient(0deg,#160c08 45%,#160c0888 80%,#160c0855)}
+ #work .project.miyako .project-brand{max-width:100%!important}
+ #work .project.miyako .project-brand img{max-height:110px!important}
+ #work .project.miyako .project-meta{font-size:10px}
+ .work-miyako-numbers{gap:23px;margin:18px 0;padding-top:18px}
+ .work-miyako-numbers>div{display:block}.work-miyako-numbers b{font-size:43px}.work-miyako-numbers span{display:block;font-size:9px;margin-top:7px;max-width:130px}
+ #work .miyako-actions>button{min-height:62px;font-size:17px!important;width:100%;max-width:none}
+ #work .miyako-actions .miyako-proof-btn{max-width:none;flex-basis:100%}
+ #work>.shell>.project-grid>.boss{min-height:550px}
+ #work .project:not(.miyako) .project-content{left:20px;right:20px}
+ #caseModal.case-theme-miyako>.case-hero{padding:42px 18px!important;min-height:0}
+ #caseModal.case-theme-miyako #caseSub{font-size:15px!important;line-height:1.8!important}
+ #caseModal.case-theme-miyako #caseKicker{font-size:8px;margin-bottom:25px}
+ .miyako-executive-summary{padding:20px}
+ .miyako-executive-summary h2{font-size:30px}.summary-stats b{font-size:28px}.summary-stats span{font-size:8px}
+ .summary-visuals,.summary-visuals img{height:190px}
+ #caseModal.case-theme-miyako .case-body{padding:0 16px 40px}
+ #caseModal.case-theme-miyako .case-body>.case-block{padding:30px 0}
+ #caseModal.case-theme-miyako #caseStoryGrid{grid-template-columns:1fr}
+ #caseModal.case-theme-miyako #caseMetricsBlock,#caseModal.case-theme-miyako #casePartnershipBlock{padding:25px 18px}
+ #caseModal.case-theme-miyako #caseMetrics .metric b{font-size:42px}
+ #caseModal.case-theme-miyako .case-story-card b{font-size:23px}
+ .miyako-case-nav{padding-left:16px;min-height:64px}
+}
+@media(prefers-reduced-motion:reduce){.work-featured-sweep{animation:none}}
+
+.case-modal:not(.case-theme-miyako) .miyako-executive-summary{display:none!important}
+#caseModal.case-theme-miyako .case-close{z-index:25}
+#caseModal.case-theme-miyako .case-block{scroll-margin-top:90px}
+
+.summary-description{font-size:12px;line-height:1.7;color:#c2aa9a;margin:-6px 0 22px}
+#caseModal.case-theme-miyako .case-body>.case-block{display:grid}
+#caseModal.case-theme-miyako .miyako-executive-summary h2{overflow-wrap:normal}

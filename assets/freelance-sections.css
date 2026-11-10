@@ -1,0 +1,35 @@
+/* Freelance is an index of distinct disciplines, each with its own evidence. */
+html body #caseModal.case-theme-freelance .case-hero{min-height:0!important;padding:110px 40px 70px!important}
+html body #caseModal.case-theme-freelance .case-title{font-size:clamp(48px,9vw,120px)!important}
+html body #caseModal.case-theme-freelance .case-body>:not(#freelanceDisciplines){display:none!important}
+html body #caseModal #freelanceDisciplines[hidden]{display:none!important}
+#freelanceDisciplines{width:100%;min-width:0;color:#f4eee6}
+#freelanceDisciplines *{box-sizing:border-box}
+.freelance-index{position:relative!important;inset:auto!important;z-index:auto!important;width:auto!important;background:transparent!important;backdrop-filter:none!important;display:flex;flex-wrap:wrap;gap:12px 28px;border-block:1px solid #393633;padding:22px 0 24px}
+.freelance-index a{color:#e9dfd3;font-size:11px;line-height:1.8;text-transform:uppercase;letter-spacing:.08em;text-decoration:none;border-bottom:1px solid #6c6257;padding-bottom:4px}
+.freelance-index a:hover,.freelance-index a:focus-visible{color:#fff;border-color:#eee2d4}
+.freelance-discipline{padding:64px 0;border-bottom:1px solid #393633;scroll-margin-top:80px}
+.freelance-discipline header{display:grid;grid-template-columns:70px minmax(0,1fr);gap:22px;margin-bottom:30px}
+.freelance-number{font-size:38px;line-height:1;font-weight:700;color:#c8bbaa;letter-spacing:-.06em}
+.freelance-eyebrow{font-size:9px!important;letter-spacing:.14em!important;color:#a89b8c!important;margin:0 0 12px!important;line-height:1.6!important}
+html #caseModal .freelance-discipline h3{font-size:clamp(28px,3.5vw,46px)!important;line-height:1.2!important;letter-spacing:-.03em!important;margin:0 0 16px!important;width:auto!important;height:auto!important}
+.freelance-discipline header>div>p:last-child{font-size:15px;line-height:1.85;color:#c5bbb0;max-width:740px;margin:0}
+.freelance-content-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px;align-items:center;margin-left:92px}
+.freelance-role>span,.freelance-wedding-bar>span{font-size:9px;letter-spacing:.12em;color:#a89b8c}
+.freelance-role p{font-size:clamp(18px,2.3vw,27px);line-height:1.8;color:#e9dfd3}
+.freelance-media{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-left:92px}
+.freelance-photo,.freelance-clip{display:block;min-width:0;position:relative;margin:0;background:#0c0b0a;border:1px solid #3b3732;color:#e9e1d8;padding:0;border-radius:0;text-align:left;overflow:hidden}
+.freelance-photo{cursor:zoom-in}
+.freelance-photo img,.freelance-clip video{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;background:#090909;transform:none!important;scale:1!important;filter:none!important}
+.freelance-photo>span,.freelance-clip figcaption{display:block;padding:12px 14px;font-size:11px;line-height:1.6;color:#c4b9ad}
+.freelance-photo>span{display:flex;justify-content:space-between;gap:10px}
+.freelance-photo i{font-style:normal;color:#eee1d1}
+.freelance-photo:hover{border-color:#8c8073}
+.freelance-photo:focus-visible,.freelance-wedding-bar button:focus-visible{outline:2px solid #e5d3bf;outline-offset:4px}
+.freelance-wedding-bar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 16px 92px}
+.freelance-wedding-bar button{font:inherit;font-size:11px;line-height:1.6;padding:8px 12px;background:#171615;border:1px solid #5b534a;color:#e9e1d8;cursor:pointer}
+.wedding-media{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media(max-width:900px){.wedding-media{grid-template-columns:repeat(2,minmax(0,1fr))}.freelance-media,.freelance-content-layout,.freelance-wedding-bar{margin-left:0}.freelance-discipline header{grid-template-columns:44px minmax(0,1fr);gap:16px}.freelance-number{font-size:30px}}
+@media(max-width:600px){html body #caseModal.case-theme-freelance .case-hero{padding:100px 16px 40px!important}.freelance-discipline{padding:42px 0}.freelance-index{gap:16px;flex-direction:column;align-items:flex-start}.freelance-content-layout,.production-media{grid-template-columns:minmax(0,1fr)}.freelance-content-layout{gap:14px}.freelance-role p{margin:8px 0 18px}.freelance-discipline header>div>p:last-child{font-size:14px}.freelance-media{gap:10px}.freelance-photo>span,.freelance-clip figcaption{font-size:10px;padding:10px}.freelance-wedding-bar{gap:8px}.freelance-wedding-bar>span{font-size:8px}}
+
+.production-media{align-items:center}.production-media .freelance-photo:last-child img{aspect-ratio:16/9}
